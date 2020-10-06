@@ -1,0 +1,759 @@
+/* Vakiolohkot */
+
+div
+    {
+        margin: 0;
+        padding:0; 
+        overflow: hidden; 
+    }
+h1
+    {
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+        width:20%;
+        font-size: 40px;
+        color:#FFFFFF;
+    }
+h3    {
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+        font-size: 25px;
+        color:#292F33;
+    }
+
+    
+body 
+{
+    background-color: #CCD6DD;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#sisalto
+{
+    width: 1900px;
+    height: 1050px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    background-color: #FFFFFF;
+}
+
+div#navigaatio
+{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   /* background-color: greenyellow;*/
+}
+div#backward 
+    {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55px;
+    left: 15px;
+   /* background-color: red;*/
+    }
+div#home
+    {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+   /* background-color: sandybrown;*/
+    }
+div#forward
+    {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 55px;
+    left: 95px;
+   /* background-color: blue;*/
+    }
+div#navigaatiotausta
+{
+    width: 150px;
+    height: 940px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #CCD6DD;
+    opacity:0.8;
+}
+div#otsikko 
+{
+    width: 1750px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+div#otsikkotausta 
+{
+    width: 1750px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-color:#55ACEE;
+}
+div#atausta 
+    {
+        width:1750px;
+        height:70px;
+        position:absolute;
+        top: 70px;
+        left:150px;
+        background-color: #55ACEE;
+        opacity:0.4;
+    }
+div#yotausta 
+    {
+        width:1750px;
+        height: 100px;
+        position: absolute;
+        top: 140px;
+        left: 150px;
+        background-color: #66757F;
+        opacity:0.2;
+    }
+div#aamutausta 
+    {
+        width: 1750px;
+        height: 170px;
+        position: absolute;
+        top: 240px;
+        left: 150px;
+        background-color: #66757F;
+        opacity:0.1;
+    }
+div#iltapaivatausta 
+    {
+        width: 1750px;
+        height: 250px;
+        position: absolute;
+        top: 410px;
+        left: 150px;
+        background-color: #55ACEE;
+        opacity:0.1;
+    }
+div#iltatausta 
+    {
+        width: 1750px;
+        height: 280px;
+        position: absolute;
+        top: 660px;
+        left: 150px;
+        background-color: #55ACEE;
+        opacity:0.2;
+    }
+div#maanantaitausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 150px;
+        background-color: #CCD6DD;
+        opacity:0.1;
+    }
+div#tiistaitausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 400px;
+        background-color: #FFFFFF;
+        opacity:0.1;
+    }
+div#keskiviikkotausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 650px;
+        background-color: #CCD6DD;
+        opacity:0.1;
+    }
+div#torstaitausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 900px;
+        background-color: #FFFFFF;
+        opacity:0.1;
+    }
+div#perjantaitausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 1150px;
+        background-color: #CCD6DD;
+        opacity:0.1;
+    }
+div#lauantaitausta 
+    {
+        width:250px;
+        height:870px;
+        position:absolute;
+        top: 70px;
+        left: 1400px;
+        background-color: #55ACEE;
+        opacity:0.1;
+    }
+div#sunnuntaitausta 
+    {
+        width:250px;
+        height:875px;
+        position:absolute;
+        top: 70px;
+        left: 1650px;
+        background-color: #292F33;
+        opacity:0.1;
+    }
+div#a1 
+    {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 10px;
+    background-color: Green;
+    }
+div#a2 
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 160px;
+    }
+
+
+div#a3 
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 410px;
+    }
+
+div#a4 
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 660px;
+    }
+div#a5 
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 910px;
+    }
+div#a6 
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 1160px;
+    }
+div#a7
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 1410px;
+    }
+
+div#a8
+    {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    top: 85px;
+    left: 1660px;
+    }
+
+div#yo1 
+    {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 155px;
+    left: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+div#yo2 
+    {
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #55ACEE;
+    }
+div#yomaanantai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 160px;
+    }
+div#yotiistai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 410px;
+    }
+
+div#yokeskiviikko 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 660px;
+    }
+
+div#yotorstai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 910px;
+    }
+
+div#yoperjantai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 1160px;
+    }
+
+div#yolauantai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 1410px;
+    }
+
+div#yosunnuntai 
+    {
+    width: 240px;
+    height: 85px;
+    position: absolute;
+    top: 155px;
+    left: 1660px;
+    }
+
+div#aamu1 
+    {
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+div#aamu2 
+    {
+    width: 20px;
+    height: 170px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #55ACEE;
+    }
+
+div#aamumaanantai
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 160px;
+    }
+div#aamutiistai 
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 410px;
+    }
+div#aamukeskiviikko 
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 660px;
+    }
+div#aamutorstai 
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 910px;
+    }
+div#aamuperjantai 
+    {
+   width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 1160px;
+    }
+
+div#aamulauantai 
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 1410px;
+    }
+
+div#aamusunnuntai 
+    {
+    width: 240px;
+    height: 170px;
+    position: absolute;
+    top: 255px;
+    left: 1660px;
+    }
+
+div#iltapaiva1 
+    {
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 425px;
+    left: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+div#iltapaiva2 
+    {
+    width: 20px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #55ACEE;
+    }
+
+div#iltapaivamaanantai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 160px;
+    }
+
+div#iltapaivatiistai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 410px;
+    }
+
+div#iltapaivakeskiviikko 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 660px;
+    }
+
+div#iltapaivatorstai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 910px;
+    }
+
+div#iltapaivaperjantai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 1160px;
+    }
+
+div#iltapaivalauantai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 1410px;
+    }
+
+div#iltapaivasunnuntai 
+    {
+    width: 240px;
+    height: 235px;
+    position: absolute;
+    top: 425px;
+    left: 1660px;
+    }
+
+div#ilta1 
+    {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 675px;
+    left: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+div#ilta2 
+    {
+    width: 20px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #55ACEE;
+    }
+div#iltamaanantai
+    {
+    width: 240px;
+    height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 160px;
+    }
+div#iltatiistai 
+    {
+    width: 240px;
+   height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 410px;
+    }
+div#iltakeskiviikko
+    {
+    width: 240px;
+    height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 660px;
+    }
+
+div#iltatorstai 
+    {
+    width: 240px;
+   height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 910px;
+    }
+
+div#iltaperjantai 
+    {
+    width: 240px;
+    height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 1160px;
+    }
+
+div#iltalauantai 
+    {
+    width: 240px;
+    height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 1410px;
+    }
+
+div#iltasunnuntai 
+    {
+    width: 240px;
+    height: 265px;
+    position: absolute;
+    top: 675px;
+    left: 1660px;
+    }
+
+
+div.nukkumaan
+{
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.nukkumisaika
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+div.heratys
+{
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+div.heratysaika
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+div.yo
+{
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+div.aamupalaotsake
+{
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.aamupala
+{
+    width: 240px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+div.aamu
+{
+    width: 240px;
+    height: 90px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+div.lounasotsake
+{
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.lounas
+{
+    width: 250px;
+    height: 55px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+div.iltapaiva
+{
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+div.paivallisotsake
+{
+    width: 125px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.paivallinen
+{
+    width: 240px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+div.ilta
+{
+    width: 240px;
+    height: 175px;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+div.otsake
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #55ACEE;
+}
+div.syote
+{
+    font-size: 12px;
+    font-style: italic;
+}
+span.tunti
+{
+    font-family:Verdana;
+    font-size:20px;
+} 
+/*
+img 
+{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+*/
